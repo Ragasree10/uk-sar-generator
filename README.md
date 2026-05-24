@@ -114,15 +114,6 @@ The answer: yes, if you design the system correctly. The 90% hallucination rate 
 
 ---
 
-## Quick Start
-
-```bash
-git clone https://github.com/Ragasree10/uk-sar-generator.git
-cd uk-sar-generator
-pip install -r requirements.txt
-python app.py
-```
-
 ---
 
 **Connect:** [Live Demo](https://huggingface.co/spaces/Raga10/UK-SAR-Generator)
@@ -130,3 +121,29 @@ python app.py
 ---
 
 *Built with synthetic data. No real customer information used.*
+
+Want to try it on your own machine? Here's how:
+
+### Quick Start
+
+```bash
+# Clone the repository
+git clone https://github.com/Ragasree10/uk-sar-generator.git
+cd uk-sar-generator
+
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the application
+python app.py
+```
+
+**First Run:** Downloads the fine-tuned model from Hugging Face (~250MB). Takes 2-3 minutes.  
+**Subsequent Runs:** Starts instantly.
+
+### System Requirements
+
+- **Python:** 3.8 or higher
+- **RAM:** 2GB minimum (4GB recommended)
+- **Storage:** 500MB for model files
+- **Internet:** Required for first-time model download
